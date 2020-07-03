@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: darkgrey;
+
 }
 
 /* centratura larga */
@@ -38,9 +38,12 @@ body {
   height: 140px;
 }
 
-.header-top-line1 {
+.extra-color-line1 {
   background-color: #f4f9fd;
   height: calc(100% / 2);
+}
+
+.header-top-line1 {
   /* separatore 2 linee header top */
   border-bottom: 1px solid black;
 }
@@ -49,8 +52,12 @@ body {
   display: inline-block;
 }
 
-.header-top-line2 {
+.extra-color-line2 {
   background-color: #ffffff;
+  height: calc(100% / 2);
+}
+
+.header-top-line2 {
   height: calc(100% / 2);
 }
 
