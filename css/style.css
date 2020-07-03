@@ -85,6 +85,10 @@ body {
   float:left;
 }
 
+.extra-color-hd-bottom {
+  background-color: #fff2ee;
+}
+
 /* HEADER BOTTOM set */
 .header-bottom {
   background-color: #fff2ee;
@@ -98,7 +102,6 @@ body {
   position: absolute;
   top: 30%;
 }
-
 
 /* set fascia che separe  header e main */
 .header-sep {
