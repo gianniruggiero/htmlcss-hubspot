@@ -90,11 +90,17 @@
 
 .extra-color-hd-bottom {
   background-color: #fff2ee;
+  background-image: url(../img/jumbotron.png);
+  background-position: top right;
+  background-size: 76.4%;
+  background-repeat: no-repeat;
+  background-position: content;
+
 }
 
 /* HEADER BOTTOM set */
 .header-bottom {
-  background-color: #fff2ee;
+  /* background-color: #fff2ee; */
   height: 500px;
 }
 
