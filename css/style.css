@@ -10,10 +10,6 @@
   clear: both;
 }
 
-body {
-
-}
-
 /* centratura larga */
 .frame-big {
   width: 80%;
@@ -41,11 +37,18 @@ body {
 .extra-color-line1 {
   background-color: #f4f9fd;
   height: calc(100% / 2);
+  border-bottom: 1px solid black;
 }
+
+
+/* .hd-sep-line1-2 {
+  height: 1px;
+  color: black;
+} */
 
 .header-top-line1 {
   /* separatore 2 linee header top */
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
 }
 
 .ul-contact li, .ul-login li, .ul-logo li, .ul-menu li {
