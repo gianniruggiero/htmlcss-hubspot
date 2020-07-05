@@ -92,13 +92,16 @@ body p{
   color: #01a4bd;
 }
 
-.logo-gethub {
+.logo-hubs {
   width: 90px;
 }
 
-
-.header-top-line1-dx * {
+.header-top-line1-dx li {
   margin-left: 10px;
+}
+
+.header-top-line1-dx li a {
+  height: 100px;
 }
 
 .header-banner {
@@ -150,6 +153,8 @@ h6 {
   background-color: #ff7a59;
 }
 
+
+
 .btn {
   color: white;
   border-radius: 5px;
@@ -166,11 +171,27 @@ h6 {
   padding: 8px 8px;
 }
 
-.btn-trasparent {
-  color: #ff7a59;
+.btn-transparent {
   border: 1px solid #ff7a59;
   background-color: transparent;
 }
+
+.btn-transparent a {
+  color: #ff7a59;
+}
+
+.orange-def a {
+  color: white;
+}
+
+.btn-transparent:hover {
+  background-color: #fff1ee;
+}
+
+.btn-small.orange-def:hover {
+  background-color: #ffbcac;
+}
+
 
 /* HEADER TOP SET */
 .header-top {
@@ -187,6 +208,11 @@ h6 {
 .ul-contact li, .ul-login li, .ul-logo li, .ul-menu li {
   display: inline-block;
 }
+
+.ul-contact li a, .ul-login li a, .ul-logo li a, .ul-menu li a {
+  text-decoration: none;
+}
+
 
 .extra-color-line2 {
   background-color: #ffffff;
