@@ -12,16 +12,97 @@
 
 body {
   font-family: 'Yantramanav', sans-serif;
-}
-
-body p {
   font-size: 15px;
   line-height: 24px;
   font-weight: 500;
 }
 
+body p{
+  line-height: 24px;
+}
+
+.header-top-line1-sx {
+  line-height: 70px;
+  color: #33475b;
+}
+
+.header-top-line2 {
+  position: relative;
+}
+
+.header-top-line2-dx {
+  line-height: 70px;
+  /* color: #33475b; */
+}
+
+.header-top-line2-dx li {
+  line-height: 70px;
+  padding-left: 12px;
+}
+
+.header-top-line1-dx {
+  line-height: 70px;
+}
+
+.ul-logo .logo-hubs {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* .header-top-line2-sx li a  {
+  position: relative;
+} */
+
+/* .logo-hubs {
+  position: absolute;
+  top: 50%;
+  transform:translateY(25%);
+} */
+
+.header-top-line1-sx .angle-down {
+  width: 22px;
+  font-size: 18px;
+  padding: 3px;
+}
+
+.header-top-line2-dx .angle-down {
+  padding-left: 5px;
+}
+
+.border-vert {
+  border-right: 1px solid #899397;
+  /* color: #33475b; */
+  height: 15px;
+  padding-top: 10px;
+}
+
+.header-top-line1-sx li:last-child {
+  width: 82px;
+  text-align: right;
+}
+
+.icon-globe {
+  font-size: 12px;
+  color: #33475b;
+}
+
+.icon-search {
+  font-size: 10px;
+  color: #01a4bd;
+}
+
+.logo-gethub {
+  width: 90px;
+}
+
+
+.header-top-line1-dx * {
+  margin-left: 10px;
+}
+
 .header-banner {
-  color: #394956
+  color: #394956;
 }
 
 .header-banner p {
@@ -65,15 +146,31 @@ h6 {
   list-style: none;
 }
 
-.btn-orange {
+.orange-def {
+  background-color: #ff7a59;
+}
+
+.btn {
   color: white;
   border-radius: 5px;
   border: none;
-  background-color: #ff7a59;
-  padding: 16px 38px;
-  font-size: 12px;
+  font-size: 11px;
+  font-weight: bold;
 }
 
+.btn-xl {
+  padding: 16px 36px;
+}
+
+.btn-small {
+  padding: 8px 8px;
+}
+
+.btn-trasparent {
+  color: #ff7a59;
+  border: 1px solid #ff7a59;
+  background-color: transparent;
+}
 
 /* HEADER TOP SET */
 .header-top {
@@ -83,6 +180,7 @@ h6 {
 .extra-color-line1 {
   background-color: #f4f9fd;
   height: calc(100% / 2);
+  /* linea che separa line 1 e line 2 del HeaderTop */
   border-bottom: 1px solid black;
 }
 
@@ -92,15 +190,12 @@ h6 {
 
 .extra-color-line2 {
   background-color: #ffffff;
-  height: calc(100% / 2);
-}
-
-.header-top-line2 {
-  height: calc(100% / 2);
+  height: 70px;
 }
 
 .header-top-line1-sx {
   width: 50%;
+  height: 70px;
   text-align: left;
   float:left;
 }
@@ -130,7 +225,6 @@ h6 {
   background-size: 76.4%;
   background-repeat: no-repeat;
   background-position: content;
-
 }
 
 /* HEADER BOTTOM set */
@@ -147,7 +241,7 @@ h6 {
   top: 50px;
 }
 
-/* set fascia che separe  header e main */
+/* set fascia che separe header e main */
 .header-sep {
   height: 70px;
   background-color: #afebe4;
