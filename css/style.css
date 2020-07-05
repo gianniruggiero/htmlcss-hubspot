@@ -286,8 +286,27 @@ h6 {
   border-top: 2px solid black;
 }
 
-/* section features set bg color e height */
+/* section features - bg color e height */
 .sec-features {
   background-color: #f4f9fd;
   height: 1200px;
+}
+
+/* section learngrow - bg color e height */
+.sec-learngrow {
+  /* ATTENTION: impostare il gradiente */
+  background-color: #00abb7;
+  height: 500px;
+}
+
+/* section learngrow - bg color e height */
+.sec-customers {
+  background-color: #ffffff;
+  height: 500px;
+}
+
+
+footer {
+  background-color: #32495b;
+  height: 400px;
 }
