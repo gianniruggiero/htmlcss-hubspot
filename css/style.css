@@ -130,6 +130,11 @@ header h1 {
   margin-bottom: 25px;
 }
 
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
 h6 {
   font-size: 12px;
 }
@@ -147,7 +152,7 @@ h6 {
 
 /* centratura piccola */
 .frame-small {
-  width: 55%;
+  width: 48%;
   margin: auto;
   /* colore di debug */
 }
@@ -299,12 +304,29 @@ h6 {
   height: 500px;
 }
 
-/* section learngrow - bg color e height */
+/* section customers - bg color e height */
 .sec-customers {
   background-color: #ffffff;
   height: 500px;
 }
 
+
+.top-feat-img {
+  height: 25%;
+  width: 25%;
+  margin-top: 50px;
+}
+
+.sec-features-top {
+  color: #394956;
+  text-align: center;
+}
+
+.sec-features-top > p {
+  margin-top: 20px;
+  display: inline-block;
+  line-height: 24px;
+}
 
 footer {
   background-color: #32495b;
