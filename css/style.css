@@ -264,7 +264,8 @@ h6 {
   background-color: #fff4ed;
   background-image: url(../img/jumbotron.png);
   background-position: top right;
-  background-size: 77%;
+  /* background-size: 77%; */
+  background-size: 1170px;
   background-repeat: no-repeat;
   background-position: content;
 }
@@ -299,8 +300,9 @@ h6 {
 
 /* section learngrow - bg color e height */
 .sec-learngrow {
-  /* ATTENTION: impostare il gradiente */
-  background-color: #00abb7;
+  /* ATTENTION: impostare il gradiente */;
+  background-color: #00a5bc;
+  background-image: linear-gradient(to top right, #00a5bc, #00bca5);
   height: 500px;
 }
 
@@ -310,10 +312,8 @@ h6 {
   height: 500px;
 }
 
-
 .top-feat-img {
-  height: 25%;
-  width: 25%;
+  height: 183px;
   margin-top: 50px;
 }
 
@@ -327,6 +327,13 @@ h6 {
   display: inline-block;
   line-height: 24px;
 }
+
+.sec-feauters-mid {
+  border: 1px solid red;
+}
+
+
+
 
 footer {
   background-color: #32495b;
