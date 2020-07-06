@@ -166,6 +166,10 @@ h6 {
   background-color: #ff7a59;
 }
 
+.orange-col {
+  color: #ff7a59;
+}
+
 .btn {
   color: white;
   border-radius: 5px;
@@ -176,6 +180,7 @@ h6 {
 
 .btn a {
   text-decoration: none;
+  display: inline-block;
 }
 
 .btn-xl {
@@ -313,7 +318,7 @@ h6 {
 }
 
 .top-feat-img {
-  height: 183px;
+  height: 150px;
   margin-top: 50px;
 }
 
@@ -328,12 +333,30 @@ h6 {
   line-height: 24px;
 }
 
-.sec-feauters-mid {
-  border: 1px solid red;
+.icon-size {
+  height: 80px;
+  display: block;
 }
 
+.sec-features-mid {
+  margin-top: 50px;
+  height: 300px;
+  padding: 80px;
+}
 
+.box {
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px lightgrey;
+}
 
+.sec-features-mid .col-left {
+  width: 25%;
+  float:left;
+}
+
+.ul-features-hr li {
+  display: inline-block;
+}
 
 footer {
   background-color: #32495b;
