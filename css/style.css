@@ -314,7 +314,8 @@ h6 {
 /* section features - bg color e height */
 .sec-features {
   background-color: #f4f9fd;
-  height: 1500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 /* section learngrow - bg color e height */
@@ -334,7 +335,6 @@ h6 {
 
 .top-feat-img {
   height: 170px;
-  margin-top: 50px;
 }
 
 .sec-features-top {
@@ -398,7 +398,6 @@ h6 {
   border-bottom: 2px solid darkgrey;
   vertical-align: middle;
   margin-left: 50px;
-
 }
 
 .ul-features-hr li {
@@ -413,7 +412,6 @@ h6 {
 .ul-features-hr {
   margin-top: 20px;
 }
-
 
 /* set header bottom */
 
@@ -442,7 +440,6 @@ h6 {
   float:left;
   height: 100%;
 }
-
 
 .sec-features-mid .col-left .btn {
   display: inline-block;
@@ -510,6 +507,10 @@ h6 {
 .sec-features-bottom .btn {
   display: inline-block;
   margin-top: 50px;
+}
+
+.sec-features a {
+  text-decoration: none;
 }
 
 footer {
