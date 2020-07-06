@@ -131,8 +131,9 @@ header h1 {
 }
 
 h2 {
-  font-size: 36px;
   font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
 }
 
 h3 {
@@ -323,7 +324,6 @@ h6 {
   /* ATTENTION: impostare il gradiente */;
   background-color: #00a5bc;
   background-image: linear-gradient(to top right, #00a5bc, #00bca5);
-  height: 500px;
 }
 
 /* section customers - bg color e height */
@@ -511,6 +511,73 @@ h6 {
 
 .sec-features a {
   text-decoration: none;
+}
+
+/* sezione learngraw */
+
+/* ATTENTION: debug da togliere */
+.sec-learngrow-body {
+  text-align: center;
+  /* background: #ffff;
+  opacity: 0.5; */
+  height: 100%;
+  padding: 50px;
+}
+
+.sec-learngrow p {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.cella {
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 20px;
+}
+
+.cella-dato {
+  position: relative;
+}
+
+.cella-numero {
+  font-size: 45px;
+  display: inline-block;
+}
+
+.segno-piu {
+  font-size: 34px;
+  margin-left: 10px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.griglia .col1 {
+  width: 25%;
+  float: left;
+}
+
+.griglia .col2 {
+  width: 25%;
+  float: left;
+}
+
+.griglia .col3 {
+  width: 25%;
+  float: left;
+}
+
+.griglia .col4 {
+  width: 25%;
+  float: left;
+}
+
+.griglia {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 footer {
