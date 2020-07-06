@@ -375,6 +375,7 @@ h6 {
   width: 20%;
   float:left;
   height: 200px;
+  text-align: center;
 }
 
 .sec-features-mid .col-right {
@@ -440,14 +441,9 @@ h6 {
   margin-top: 20px;
 }
 
-.sec-features-mid .col-left .ico {
-  display: inline-block;
-  margin-top: 5px;
-}
-
 .sec-features-mid .col-left .btn {
   display: inline-block;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 footer {
