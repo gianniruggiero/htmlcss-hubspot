@@ -52,7 +52,7 @@ body {
   line-height: 70px;
 }
 
-.ul-logo .logo-hubs {
+.logo-hubs {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -162,7 +162,7 @@ h6 {
   list-style: none;
 }
 
-.orange-def {
+.orange-bgcol {
   background-color: #ff7a59;
 }
 
@@ -170,15 +170,18 @@ h6 {
   color: #ff7a59;
 }
 
-.btn {
-  color: white;
-  border-radius: 5px;
-  border: none;
-  font-size: 11px;
-  font-weight: bold;
+.white-col {
+  color: #ffff;
 }
 
-.btn a {
+.btn {
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  /* font-weight: bold; */
+}
+
+.header-banner a {
   text-decoration: none;
   display: inline-block;
 }
@@ -192,7 +195,7 @@ h6 {
 }
 
 .btn-transparent {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   border: 1px solid #ff7a59;
   background-color: transparent;
   padding: 8px 8px;
@@ -200,10 +203,6 @@ h6 {
 
 .btn-transparent a {
   color: #ff7a59;
-}
-
-.orange-def a {
-  color: white;
 }
 
 .btn-transparent:hover {
@@ -234,6 +233,9 @@ h6 {
   text-decoration: none;
 }
 
+.ul-menu li {
+  /* vertical-align: middle; */
+}
 
 .extra-color-line2 {
   background-color: #ffffff;
@@ -247,6 +249,7 @@ h6 {
   float:left;
 }
 
+
 .header-top-line1-dx {
   width: 50%;
   text-align: right;
@@ -254,6 +257,7 @@ h6 {
 }
 
 .header-top-line2-sx {
+  height: 70px;
   width: 50%;
   text-align: left;
   float:left;
