@@ -248,7 +248,7 @@ h6 {
   /* vertical-align: middle; */
 }
 
-.extra-color-line2 {
+.relative-color-line2 {
   background-color: #ffffff;
   height: 70px;
 }
@@ -417,7 +417,6 @@ h6 {
 
 .sec-features-bottom {
   margin-top: 50px;
-  /* height: 600px; */
 }
 
 .sec-features-bottom .col-left {
@@ -487,6 +486,9 @@ h6 {
   text-align: left;
 }
 
+.ul-features-vt li:nth-child(2) {
+  padding-left: 10px;
+}
 .ul-features-vt {
   text-align: left;
 }
@@ -555,22 +557,22 @@ h6 {
   transform: translateY(-50%);
 }
 
-.griglia .col1 {
+.col1 {
   width: 25%;
   float: left;
 }
 
-.griglia .col2 {
+.col2 {
   width: 25%;
   float: left;
 }
 
-.griglia .col3 {
+.col3 {
   width: 25%;
   float: left;
 }
 
-.griglia .col4 {
+.col4 {
   width: 25%;
   float: left;
 }
@@ -579,6 +581,24 @@ h6 {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+
+/* section customers */
+
+.sec-customers-top {
+  height: 350px;
+  background-color: red;
+}
+
+.sec-customers-top .col-left {
+  float: left;
+  width: 200px;
+
+}
+
+.sec-customers-top .col-right {
+  float: left;
+}
+
 
 footer {
   background-color: #32495b;
