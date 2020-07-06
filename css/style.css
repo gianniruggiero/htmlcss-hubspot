@@ -155,7 +155,7 @@ h6 {
 
 /* centratura larga */
 .frame-big {
-  width: 60%;
+  width: 65%;
   margin: auto;
   /* colore di debug */
 }
@@ -219,7 +219,7 @@ h6 {
   background-color: #fff1ee;
 }
 
-.btn.orange-def:hover {
+.btn.orange-bgcol:hover {
   background-color: #ffbcac;
 }
 
@@ -349,19 +349,20 @@ h6 {
 }
 
 .icon-size {
-  height: 80px;
+  height: 90px;
 }
 
 .sec-features-mid {
   margin-top: 50px;
   /* height: 300px; */
-  padding: 50px 80px;
+  padding: 50px 100px;
 }
 
 .sec-features-mid .col-right p {
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
   line-height: 24px;
+  width: 550px;
 }
 
 .box {
@@ -377,20 +378,21 @@ h6 {
 }
 
 .sec-features-mid .col-right {
-  margin-left: 4%;
-  width: 75%;
+  margin-left: 9%;
+  width: 71%;
   float:left;
   height: 200px;
 }
 
-.col-right h4 {
+.sec-features-mid .col-right h4 {
   display: inline-block;
 }
 
 .sec-features-mid .col-right .line-sep {
   display: inline-block;
   height: 0px;
-  width: 330px;
+  width: 340px;
+  /* width: 450px; */
   border-bottom: 2px solid darkgrey;
   vertical-align: middle;
   margin-left: 50px;
@@ -445,7 +447,7 @@ h6 {
 
 .sec-features-mid .col-left .btn {
   display: inline-block;
-  margin-top: 50px;
+  margin-top: 15px;
 }
 
 footer {
