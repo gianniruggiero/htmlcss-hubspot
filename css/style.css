@@ -626,6 +626,10 @@ h6 {
 
 /* section customers */
 
+.sec-customers {
+  height: 700px;
+}
+
 .sec-customers-top {
   /* background-color: red; */
   padding: 50px;
@@ -641,7 +645,7 @@ h6 {
   font-weight: 400;
   line-height: 24px;
   width: 160px;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .sec-customers-top .col-left {
@@ -678,7 +682,9 @@ h6 {
 
 .sec-customers-bottom {
   /* height: 600px; */
-  padding: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
 }
 
 .customers-banner {
@@ -703,7 +709,7 @@ h6 {
 }
 
 .customers-banner h6 {
-  margin-top: 30px;
+  margin-top: 40px;
   font-size: 12px;
   font-weight: 500;
 }
@@ -720,7 +726,55 @@ h6 {
   background-position: content;
 }
 
+/* set footer */
+
 footer {
   background-color: #32495b;
-  height: 400px;
+  height: 900px;
+}
+
+.footer-top {
+  height: 700px;
+  padding-top: 40px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-top h5 {
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.set-col {
+  float: left;
+  width: 25%;
+  color: white;
+}
+
+.no-dec {
+  text-decoration: none;
+}
+
+/* colore link del footer */
+.col-def {
+  color: #cbd6e2;
+
+}
+
+/* colore hover link del footer */
+.col-hover {
+  color: #7fd1de;
+}
+
+.col-tit {
+  color: #ffff;
+}
+
+.link-list {
+  line-height: 30px;
+}
+
+.link-list a:hover {
+  color: #7fd1de;
 }
