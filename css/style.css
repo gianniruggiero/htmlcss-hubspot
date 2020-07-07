@@ -541,47 +541,41 @@ h6 {
   line-height: 24px;
 }
 
+.sec-learngrow .griglia .cella {
+  padding: 20px;
+}
+
 .col1 .cella:first-child {
   border-right: 1px solid white;
   border-bottom: 1px solid white;
-  padding: 20px;
 }
 
 .col1 .cella:last-child {
   border-right: 1px solid white;
-  padding: 20px;
 }
 
 .col2 .cella:first-child {
   border-right: 1px solid white;
   border-bottom: 1px solid white;
-  padding: 20px;
 }
 
 .col2 .cella:last-child {
   border-right: 1px solid white;
-  padding: 20px;
 }
 
 .col3 .cella:first-child {
   border-right: 1px solid white;
   border-bottom: 1px solid white;
-  padding: 20px;
 }
 
 .col3 .cella:last-child {
   border-right: 1px solid white;
-  padding: 20px;
 }
 
 .col4 .cella:first-child {
   border-bottom: 1px solid white;
-  padding: 20px;
 }
 
-.col4 .cella:last-child {
-  padding: 20px;
-}
 
 
 .cella-dato {
@@ -639,7 +633,7 @@ h6 {
 /* section customers */
 
 .sec-customers-top {
-  background-color: red;
+  /* background-color: red; */
   padding: 50px;
 }
 
@@ -653,22 +647,32 @@ h6 {
   font-weight: 400;
   line-height: 24px;
   width: 160px;
-  background-color: yellow;
   margin-top: 20px;
 }
 
 .sec-customers-top .col-left {
   float: left;
-  width: 35%;
+  width: 40%;
 }
 
 .sec-customers-top .col-right {
   float: left;
-  width: 65%;
+  width: 60%;
 }
 
 .sec-customers .cella-img img {
   width: 100%;
+}
+
+.sec-customers .cella-img {
+  height: 40px;
+}
+
+.sec-customers-top .cella {
+  background-color: darkgrey;
+  padding: 10px;
+  text-align: center;
+
 }
 
 footer {
