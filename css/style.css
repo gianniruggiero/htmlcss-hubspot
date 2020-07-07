@@ -156,7 +156,14 @@ h6 {
 
 /* centratura larga */
 .frame-big {
-  width: 65%;
+  width: 68%;
+  margin: auto;
+  /* colore di debug */
+}
+
+/* centratura larga */
+.frame-mid {
+  width: 58%;
   margin: auto;
   /* colore di debug */
 }
@@ -528,9 +535,10 @@ h6 {
 
 .sec-learngrow p {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
   margin-top: 22px;
   margin-bottom: 22px;
+  line-height: 24px;
 }
 
 .cella {
@@ -544,13 +552,18 @@ h6 {
 }
 
 .cella-numero {
-  font-size: 45px;
+  font-size: 38px;
+  font-weight: 900;
   display: inline-block;
 }
 
+.cella-text h6 {
+  font-weight: 500;
+}
+
 .segno-piu {
-  font-size: 34px;
-  margin-left: 10px;
+  font-size: 20px;
+  margin-left: 5px;
   display: inline-block;
   position: absolute;
   top: 50%;
@@ -582,23 +595,41 @@ h6 {
   margin-bottom: 40px;
 }
 
+
 /* section customers */
 
 .sec-customers-top {
-  height: 350px;
   background-color: red;
+  padding: 50px;
+}
+
+.sec-customers-top h2 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.sec-customers p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 160px;
+  background-color: yellow;
+  margin-top: 20px;
 }
 
 .sec-customers-top .col-left {
   float: left;
-  width: 200px;
-
+  width: 35%;
 }
 
 .sec-customers-top .col-right {
   float: left;
+  width: 65%;
 }
 
+.sec-customers .cella-img img {
+  width: 100%;
+}
 
 footer {
   background-color: #32495b;
