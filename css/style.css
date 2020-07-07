@@ -805,9 +805,41 @@ footer {
 .list-social li {
   display: inline-block;
   font-size: 14px;
-  /* padding: 12px; */
 }
 
 .list-social li:nth-child(1n+2) {
   padding-left: 16px;
+}
+
+.list-lang li {
+  display: inline-block;
+  padding: 12px;
+}
+
+.footer-bottom h5 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.list-policy li {
+  display: inline-block;
+  padding-left: 12px;
+}
+
+.footer-bottom .col-left {
+  float: left;
+  width: 50%;
+  margin: 50px 0px;
+}
+
+.footer-bottom .col-right {
+  float: left;
+  width: 50%;
+  text-align: right;
+  margin: 50px 0px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #cbd6e2;
 }
