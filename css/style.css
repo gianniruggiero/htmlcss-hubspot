@@ -626,10 +626,6 @@ h6 {
 
 /* section customers */
 
-.sec-customers {
-  height: 700px;
-}
-
 .sec-customers-top {
   /* background-color: red; */
   padding: 50px;
@@ -749,17 +745,15 @@ footer {
 .set-col {
   float: left;
   width: 25%;
-  color: white;
 }
 
 .no-dec {
   text-decoration: none;
 }
 
-/* colore link del footer */
+/* colore di default del link del footer */
 .col-def {
   color: #cbd6e2;
-
 }
 
 /* colore hover link del footer */
@@ -767,14 +761,53 @@ footer {
   color: #7fd1de;
 }
 
+/* colore hover link del footer */
 .col-tit {
   color: #ffff;
 }
 
+/* colore del titolo della lista di link */
 .link-list {
   line-height: 30px;
 }
 
+/* colore di sfondo del button del footer */
+.bgcol-btn-foot {
+  background-color: #dadee0;
+}
+
+/* colore di hover per il ink del footer */
 .link-list a:hover {
   color: #7fd1de;
+}
+
+.btn-col {
+  color: #32495b;
+}
+
+.foot-col4 .btn {
+  margin-top: 50px;
+}
+
+#btn-footer {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#btn-footer a:hover {
+  background-color: #eaf0f6;
+}
+
+.list-social {
+  margin-top: 30px;
+}
+
+.list-social li {
+  display: inline-block;
+  font-size: 14px;
+  /* padding: 12px; */
+}
+
+.list-social li:nth-child(1n+2) {
+  padding-left: 16px;
 }
