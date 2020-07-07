@@ -726,11 +726,9 @@ h6 {
 
 footer {
   background-color: #32495b;
-  height: 900px;
 }
 
 .footer-top {
-  height: 700px;
   padding-top: 40px;
   font-size: 14px;
   font-weight: 500;
@@ -781,6 +779,11 @@ footer {
   color: #7fd1de;
 }
 
+/* colore di hover per il ink del footer */
+.list-lang a:hover {
+  color: #7fd1de;
+}
+
 .btn-col {
   color: #32495b;
 }
@@ -816,6 +819,11 @@ footer {
   padding: 12px;
 }
 
+.list-lang {
+  text-align: center;
+  margin-top: 200px;
+}
+
 .footer-bottom h5 {
   font-size: 15px;
   font-weight: 400;
@@ -842,4 +850,5 @@ footer {
 
 .footer-bottom {
   border-top: 1px solid #cbd6e2;
+  margin-top: 10px;
 }
