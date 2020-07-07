@@ -541,11 +541,48 @@ h6 {
   line-height: 24px;
 }
 
-.cella {
+.col1 .cella:first-child {
   border-right: 1px solid white;
   border-bottom: 1px solid white;
   padding: 20px;
 }
+
+.col1 .cella:last-child {
+  border-right: 1px solid white;
+  padding: 20px;
+}
+
+.col2 .cella:first-child {
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 20px;
+}
+
+.col2 .cella:last-child {
+  border-right: 1px solid white;
+  padding: 20px;
+}
+
+.col3 .cella:first-child {
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 20px;
+}
+
+.col3 .cella:last-child {
+  border-right: 1px solid white;
+  padding: 20px;
+}
+
+.col4 .cella:first-child {
+  border-bottom: 1px solid white;
+  padding: 20px;
+}
+
+.col4 .cella:last-child {
+  padding: 20px;
+}
+
 
 .cella-dato {
   position: relative;
