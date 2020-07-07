@@ -545,37 +545,36 @@ h6 {
   padding: 20px;
 }
 
-.col1 .cella:first-child {
+.sec-learngrow .col1 .cella:first-child {
   border-right: 1px solid white;
   border-bottom: 1px solid white;
 }
 
-.col1 .cella:last-child {
+.sec-learngrow .col1 .cella:last-child {
   border-right: 1px solid white;
 }
 
-.col2 .cella:first-child {
-  border-right: 1px solid white;
-  border-bottom: 1px solid white;
-}
-
-.col2 .cella:last-child {
-  border-right: 1px solid white;
-}
-
-.col3 .cella:first-child {
+.sec-learngrow .col2 .cella:first-child {
   border-right: 1px solid white;
   border-bottom: 1px solid white;
 }
 
-.col3 .cella:last-child {
+.sec-learngrow .col2 .cella:last-child {
   border-right: 1px solid white;
 }
 
-.col4 .cella:first-child {
+.sec-learngrow .col3 .cella:first-child {
+  border-right: 1px solid white;
   border-bottom: 1px solid white;
 }
 
+.sec-learngrow .col3 .cella:last-child {
+  border-right: 1px solid white;
+}
+
+.sec-learngrow .col4 .cella:first-child {
+  border-bottom: 1px solid white;
+}
 
 
 .cella-dato {
@@ -647,7 +646,7 @@ h6 {
   font-weight: 400;
   line-height: 24px;
   width: 160px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .sec-customers-top .col-left {
@@ -660,19 +659,24 @@ h6 {
   width: 60%;
 }
 
+.sec-customers .cella-img {
+  position: relative;
+}
+
 .sec-customers .cella-img img {
   width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .sec-customers .cella-img {
-  height: 40px;
+  height: 70px;
 }
 
 .sec-customers-top .cella {
-  background-color: darkgrey;
-  padding: 10px;
-  text-align: center;
-
+  padding: 0px 10px;
 }
 
 footer {
