@@ -11,164 +11,60 @@
   clear: both;
 }
 
-body {
-  font-family: 'Yantramanav', sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-}
-
-.header-top-line1-sx {
-  line-height: 70px;
-}
-
-.header-top-line1-sx a {
-  color: #33475b;
-}
-
-/* ATTENTION! contorllare se il colore è giusto */
-.header-top-line2-dx a {
-  color: #33475b;
-}
-
-.header-top-line2 {
-  position: relative;
-}
-
-.header-top-line2-dx {
-  line-height: 70px;
-  /* color: #33475b; */
-}
-
-.header-top-line2-dx li {
-  line-height: 70px;
-  padding-left: 12px;
-}
-
-.header-top-line1-dx {
-  line-height: 70px;
-}
-
-.logo-hubs {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-/* .header-top-line2-sx li a  {
-  position: relative;
-} */
-
-/* .logo-hubs {
-  position: absolute;
-  top: 50%;
-  transform:translateY(25%);
-} */
-
-.header-top-line1-sx .angle-down {
-  width: 22px;
-  font-size: 18px;
-  padding: 3px;
-}
-
-.header-top-line2-dx .angle-down {
-  padding-left: 5px;
-}
-
-.border-vert {
-  border-right: 1px solid #899397;
-  /* color: #33475b; */
-  height: 15px;
-  padding-top: 10px;
-}
-
-.header-top-line1-sx li:last-child {
-  width: 82px;
-  text-align: right;
-}
-
-.icon-globe {
-  font-size: 12px;
-  color: #33475b;
-}
-
-.icon-search {
-  font-size: 10px;
-  color: #01a4bd;
-}
-
-.logo-hubs {
-  width: 90px;
-}
-
-.header-top-line1-dx li {
-  margin-left: 14px;
-}
-
-.header-top-line1-dx li a {
-  line-height: 16px;
-}
-
-.header-banner {
-  color: #394956;
-}
-
-.header-banner p {
-  font-size: 15px;
-  line-height: 24px;
-  font-weight: 500;
-  margin-bottom: 22px;
-}
-
-header h1 {
+/* impsotazione h1 - titolo principale */
+h1 {
   font-weight: 900;
   font-size: 50px;
   line-height: 50px;
   margin-bottom: 25px;
 }
 
+/* impostazione h2 per la pagina */
 h2 {
   font-weight: 900;
   font-size: 32px;
   line-height: 36px;
 }
 
+/* impostazione h3 per la pagina */
 h3 {
   font-size: 28px;
   font-weight: 900;
 }
 
+/* impostazione h4 per la pagina */
 h4 {
   font-size: 20px;
   font-weight: 900;
 }
 
+/* impostazione h6 per la pagina */
 h6 {
   font-size: 12px;
 }
 
-.header-banner h6 {
-  margin-top: 30px;
+body {
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 /* centratura larga */
 .frame-big {
   width: 68%;
   margin: auto;
-  /* colore di debug */
 }
 
-/* centratura larga */
+/* centratura media */
 .frame-mid {
   width: 58%;
   margin: auto;
-  /* colore di debug */
 }
 
 /* centratura piccola */
 .frame-small {
   width: 48%;
   margin: auto;
-  /* colore di debug */
 }
 
 /* per togliere i puntini ai list */
@@ -176,86 +72,225 @@ h6 {
   list-style: none;
 }
 
+/* per togliere la sottolineatura di default al tag a */
+.no-dec {
+  text-decoration: none;
+}
+
+/* colore sfondo button arrancion */
 .orange-bgcol {
   background-color: #ff7a59;
 }
 
+/* colore button arrancione */
 .orange-col {
   color: #ff7a59;
 }
 
+/* colore bianco */
 .white-col {
   color: #ffff;
 }
 
+/* allineamento del testo centrale  */
+.col-text-center {
+  text-align: center;
+}
+
+/* set base per i button */
 .btn {
   border-radius: 5px;
   border: none;
   font-size: 15px;
-  /* font-weight: bold; */
 }
 
-.header-banner a {
-  text-decoration: none;
-  display: inline-block;
-}
-
+/* button dimensione grande (tipo Learn More) */
 .btn-xl {
   padding: 16px 36px;
 }
 
+/* button dimensione piccola (tipo Log in) */
 .btn-small {
   padding: 9px 9px;
 }
 
+/* set per button trapsarente (tipo Log in) */
 .btn-transparent {
-  /* box-sizing: border-box; */
   border: 1px solid #ff7a59;
   background-color: transparent;
   padding: 8px 8px;
 }
 
+/* colore scritta button trasparente */
 .btn-transparent a {
   color: #ff7a59;
 }
 
+/* set per hover su button trasparente */
 .btn-transparent:hover {
   background-color: #fff1ee;
 }
 
+/* set per hover su button bgcol arancione */
 .btn.orange-bgcol:hover {
   background-color: #ffbcac;
 }
 
-/* HEADER TOP SET */
-.header-top {
-  height: 140px;
+/* HEADER */
+
+/* centratuta verticale per globo, english, contac us */
+.header-top-line1-sx {
+  line-height: 70px;
 }
 
+/* colore voci di menu English / Contact US */
+.header-top-line1-sx a {
+  color: #33475b;
+}
+
+/* colore voci di menu */
+.header-top-line2-dx a {
+  color: #33475b;
+}
+
+/* centratuta verticale  */
+.header-top-line2-dx {
+  line-height: 70px;
+}
+
+/* posizionamento e distanziamneto voci della nav dx linea 2 */
+.header-top-line2-dx li {
+  line-height: 70px;
+  padding-left: 12px;
+}
+
+/* centratuta asse Y per voci menu search, log in, btn  */
+.header-top-line1-dx {
+  line-height: 70px;
+}
+
+/* wrapper riga 1 header top */
 .extra-color-line1 {
   background-color: #f4f9fd;
-  height: calc(100% / 2);
-  /* linea che separa line 1 e line 2 del HeaderTop */
+  height: 70px;
+  /* linea che separa line 1 e line 2 del Header Top */
   border-bottom: 1px solid black;
+  /* set per fissare riga 1 del top header in alto sulla pagina */
+  position: fixed;
+  z-index: 2;
+  width: 100%;
 }
 
-.ul-contact li, .ul-login li, .ul-logo li, .ul-menu li {
+/* wrapper riga 2 header top */
+.extra-color-line2 {
+  background-color: #ffffff;
+  height: 70px;
+  width: 100%;
+  /* set per fissare riga 1 del top header in alto sulla pagina */
+  position: relative;
+  top: 70px;
+}
+
+/* set altezza riga 1 header top */
+.header-top-line1 {
+  height: 70px;
+}
+
+/* set altezza riga 2 header top */
+.header-top-line2 {
+  height: 70px;
+}
+
+/* per la posizone absolute del logo Hubspot */
+.header-top-line2-sx {
+  position: relative;
+}
+
+/* centratutra asse Y del logo Hubspot */
+.logo-hubs {
+  width: 90px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* postizione angle down tra le voci di menu della nav sx linea 1  */
+.header-top-line1-sx .angle-down {
+  width: 22px;
+  font-size: 18px;
+  /* padding: 3px; */
+}
+
+/* postizione angle down tra le voci di menu della nav dx linea 2  */
+.header-top-line2-dx .angle-down {
+  padding-left: 5px;
+}
+
+/* separatore verticale tra english e contact us */
+.border-vert {
+  border-right: 1px solid #899397;
+  height: 15px;
+  padding-top: 10px;
+}
+
+/* posizionamento di contact us nella nav sx linea 1 */
+.header-top-line1-sx li:last-child {
+  width: 82px;
+  text-align: right;
+}
+
+/* set icona globo nella nav sx liena 1 */
+.icon-globe {
+  font-size: 12px;
+  color: #33475b;
+}
+
+/* set icona search nella nav dx liena 2 */
+.icon-search {
+  font-size: 10px;
+  color: #01a4bd;
+}
+
+/* distanzionamento elementi della nav dx linea 1 (search, log, in btn) */
+.header-top-line1-dx li {
+  margin-left: 14px;
+}
+
+/* colore font per testi div banner */
+.header-banner {
+  color: #394956;
+}
+
+/* set paragrafo del banner nell'header*/
+.header-banner p {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 22px;
+}
+
+/* posizione testo h6 nel banner dell'header */
+.header-banner h6 {
+  margin-top: 30px;
+}
+
+/* set per button del banner dell'header */
+.header-banner a {
+  text-decoration: none;
   display: inline-block;
 }
 
+/* set per tutti i li dell'header  */
+.ul-contact li, .ul-login li, .ul-menu li {
+  display: inline-block;
+}
+
+/* toglie il sottolinea a tutti ai tag  */
 .ul-contact li a, .ul-login li a, .ul-logo li a, .ul-menu li a {
   text-decoration: none;
 }
 
-.ul-menu li {
-  /* vertical-align: middle; */
-}
-
-.relative-color-line2 {
-  background-color: #ffffff;
-  height: 70px;
-}
-
+/* set per zona sx riga 1 geader top */
 .header-top-line1-sx {
   width: 50%;
   height: 70px;
@@ -263,13 +298,14 @@ h6 {
   float:left;
 }
 
-
+/* set per zona dx riga 1 header top */
 .header-top-line1-dx {
   width: 50%;
   text-align: right;
   float:left;
 }
 
+/* set per zona sx riga 2 header top */
 .header-top-line2-sx {
   height: 70px;
   width: 50%;
@@ -277,12 +313,14 @@ h6 {
   float:left;
 }
 
+/* set per zona dx riga 2 header top */
 .header-top-line2-dx {
   width: 50%;
   text-align: right;
   float:left;
 }
 
+/* set immagine di sfondo dell'header*/
 .extra-color-hd-bottom {
   background-color: #fff4ed;
   background-image: url(../img/jumbotron.png);
@@ -293,12 +331,17 @@ h6 {
   background-position: content;
 }
 
+
 /* HEADER BOTTOM set */
+
+/* set per posizione absolute del banner dell'header */
 .header-bottom {
   height: 500px;
   position: relative;
+  top: 70px;
 }
 
+/* posizionamento absolute del banner dell'header */
 .header-banner {
   width: 520px;
   height: 300px;
@@ -315,6 +358,9 @@ h6 {
   border-top: 2px solid black;
 }
 
+
+/* FEATURES section */
+
 /* section features - bg color e height */
 .sec-features {
   background-color: #f4f9fd;
@@ -324,43 +370,47 @@ h6 {
 
 /* section learngrow - bg color e height */
 .sec-learngrow {
-  /* ATTENTION: impostare il gradiente */;
   background-color: #00a5bc;
   background-image: linear-gradient(to top right, #00a5bc, #00bca5);
 }
 
-/* section customers - bg color e height */
+/* bg color della sezione customers */
 .sec-customers {
-  /* background-color: #ffffff; */
   background-color: #F4F9FD;
 }
 
+/* dimensionamento immagine della sezione features top */
 .top-feat-img {
   height: 170px;
 }
 
+/* bg color e align sezione features top */
 .sec-features-top {
   color: #394956;
   text-align: center;
 }
 
+/* set paragrafo della sezione features top */
 .sec-features-top > p {
   margin-top: 20px;
   display: inline-block;
   line-height: 24px;
 }
 
+/* dimensionamento icone della sezione festaure top */
 .icon-size {
   height: 90px;
   margin-bottom: 15px
 }
 
+/* posizionamneto sezione features mid */
 .sec-features-mid {
   margin-top: 50px;
   /* height: 300px; */
   padding: 50px 100px;
 }
 
+/* set paragrafo della colonna destra della sezione features mid */
 .sec-features-mid .col-right p {
   margin-top: 20px;
   margin-bottom: 15px;
@@ -368,12 +418,14 @@ h6 {
   width: 550px;
 }
 
+/* impostazioni per i box di sfondo - sezione features mid */
 .box {
   border-radius: 5px;
   box-shadow: 4px 4px 10px 2px #e6ecf1;
   background-color: #ffff;
 }
 
+/* set colonna SX - sezione features mid */
 .sec-features-mid .col-left {
   width: 20%;
   float:left;
@@ -381,6 +433,7 @@ h6 {
   text-align: center;
 }
 
+/* set colonna SX - sezione features mid */
 .sec-features-mid .col-right {
   margin-left: 9%;
   width: 71%;
@@ -388,20 +441,23 @@ h6 {
   height: 200px;
 }
 
+/* set testo h4 - sezione features mid */
 .sec-features-mid .col-right h4 {
   display: inline-block;
 }
 
+/* set linea affiancata a POPULAR FEATURE - sezione features mid */
 .sec-features-mid .col-right .line-sep {
   display: inline-block;
   height: 0px;
-  width: 340px;
+  width: 60%;
   /* width: 450px; */
   border-bottom: 2px solid darkgrey;
   vertical-align: middle;
   margin-left: 50px;
 }
 
+/* impostazioni per lista circle check - sezione features middle */
 .ul-features-hr li {
   display: inline-block;
   padding-left: 10px;
@@ -414,34 +470,17 @@ h6 {
 .ul-features-hr {
   margin-top: 20px;
 }
+/* impostazioni per circle check - sezione features middle */
 
-/* set header bottom */
 
+/* FEATURES BOTTOM set */
+
+/* set margin - sezione features bottom */
 .sec-features-bottom {
   margin-top: 50px;
 }
 
-.sec-features-bottom .col-left {
-  width: 29.33%;
-  float:left;
-  height: 100%;
-  text-align: center;
-}
-
-.sec-features-bottom .col-center {
-  width: 29.33%;
-  float:left;
-  height: 100%;
-  margin-left: 6%;
-  margin-right: 6%;
-}
-
-.sec-features-bottom .col-right {
-  width: 29.33%;
-  float:left;
-  height: 100%;
-}
-
+/* set button della section features bottom */
 .sec-features-mid .col-left .btn {
   display: inline-block;
   margin-top: 20px;
@@ -456,11 +495,15 @@ h6 {
   display: inline-block;
   margin-top: 20px;
 }
+/* set button della section features bottom */
 
-.col-text-center {
-  text-align: center;
+/* set margin per distanza tra le colonne left, center, right - sezione features bottom */
+.sec-features-bottom .col-center {
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
+/* set colonne left, center, right - sezione features bottom */
 .sec-features-bottom .col-left, .sec-features-bottom .col-center, .sec-features-bottom .col-right  {
   width: 29.33%;
   float:left;
@@ -469,20 +512,25 @@ h6 {
   text-align: center;
 }
 
+/* set per immagini - sezione features bottom */
 .sec-features-bottom .col-left .ico, .sec-features-bottom .col-center .ico, .sec-features-bottom .col-right .ico  {
   display: inline-block;
   margin-top: 20px;
 }
 
+/* set per button - sezione features bottom */
 .sec-features-bottom .col-left .btn, .sec-features-bottom .col-center .btn, .sec-features-bottom .col-right .btn {
   display: inline-block;
 }
 
+/* set testo paragrafo - sezione features bottom */
 .sec-features-bottom p {
   margin-top: 20px;
   line-height: 24px;
 }
 
+
+/* set list verticale dei circle check - sec featrues bottom */
 .ul-features-vt li {
   display: inline-block;
   text-align: left;
@@ -494,7 +542,10 @@ h6 {
 .ul-features-vt {
   text-align: left;
 }
+/* /set list verticale dei circle check - sec featrues bottom */
 
+
+/* set linea separatore nel box - sec features bottom */
 .sec-features-bottom .line-sep {
   display: inline-block;
   height: 0px;
@@ -504,10 +555,12 @@ h6 {
   margin-bottom: 25px;
 }
 
+/* set testo h4 - sec featrues bottom */
 .sec-features-bottom h4 {
   margin-bottom: 25px;
 }
 
+/* set button della sec features bottom */
 .sec-features-bottom .btn {
   display: inline-block;
   margin-top: 50px;
@@ -516,18 +569,17 @@ h6 {
 .sec-features a {
   text-decoration: none;
 }
+/* set button della sec features bottom */
 
-/* sezione learngraw */
+/* LEARNGROW section */
 
-/* ATTENTION: debug da togliere */
 .sec-learngrow-body {
   text-align: center;
-  /* background: #ffff;
-  opacity: 0.5; */
   height: 100%;
   padding: 50px;
 }
 
+/* set testo paragrafo della sec featrues bottom */
 .sec-learngrow p {
   font-size: 15px;
   font-weight: 400;
@@ -536,10 +588,17 @@ h6 {
   line-height: 24px;
 }
 
+/* set padding della cella della griglia */
 .sec-learngrow .griglia .cella {
   padding: 20px;
 }
 
+/* set altezza fissa immagini */
+.sec-learngrow .griglia .cella-img img {
+  height: 34px;
+}
+
+/* impostazione bordi .cella per creare la griglia / sec learngrow */
 .sec-learngrow .col1 .cella:first-child {
   border-right: 1px solid white;
   border-bottom: 1px solid white;
@@ -570,20 +629,12 @@ h6 {
 .sec-learngrow .col4 .cella:first-child {
   border-bottom: 1px solid white;
 }
+/* impsotazione bordi celle per creare la griglia / sec learngrow */
 
 
+/* centratura su asse Y per il segno + , di fianco al numero della cella  */
 .cella-dato {
   position: relative;
-}
-
-.cella-numero {
-  font-size: 38px;
-  font-weight: 900;
-  display: inline-block;
-}
-
-.cella-text h6 {
-  font-weight: 500;
 }
 
 .segno-piu {
@@ -594,48 +645,45 @@ h6 {
   top: 50%;
   transform: translateY(-50%);
 }
+/* /centratura su asse Y per il segno + , di fianco al numero della cella  */
 
-.col1 {
+/* set per testi della cella */
+.cella-numero {
+  font-size: 38px;
+  font-weight: 900;
+  display: inline-block;
+}
+
+.cella-text h6 {
+  font-weight: 500;
+}
+/* /set per testi della cella */
+
+/* set diemsioni colonne griglia */
+.col1, .col2, .col3, .col4 {
   width: 25%;
   float: left;
 }
 
-.col2 {
-  width: 25%;
-  float: left;
-}
-
-.col3 {
-  width: 25%;
-  float: left;
-}
-
-.col4 {
-  width: 25%;
-  float: left;
-}
-
+/* posizionamento griglia */
 .griglia {
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
-.sec-learngrow .griglia .cella-img img {
-  height: 34px;
-}
-
-/* section customers */
+/* CUSTOMERS section */
 
 .sec-customers-top {
-  /* background-color: red; */
   padding: 50px;
 }
 
+/* set testo h2 - sec customers */
 .sec-customers-top h2 {
   font-size: 46px;
   font-weight: 700;
 }
 
+/* set testo paragrafo - sec customers */
 .sec-customers-top p {
   font-size: 15px;
   font-weight: 400;
@@ -644,6 +692,7 @@ h6 {
   margin-top: 50px;
 }
 
+/* imppstazione colonne - sec customers */
 .sec-customers-top .col-left {
   float: left;
   width: 40%;
@@ -653,7 +702,10 @@ h6 {
   float: left;
   width: 60%;
 }
+/* imppstazione colonne - sec customers */
 
+
+/* dimensionamento e centrature delle icone nelle celle della griglia */
 .sec-customers .cella-img {
   position: relative;
 }
@@ -673,26 +725,31 @@ h6 {
 .sec-customers-top .cella {
   padding: 0px 10px;
 }
+/* centrature delle icone nelle celle della griglia */
 
-/* zona bottom del sec customers */
 
+/* set CUSTOMERS bottom */
+
+/* set posizioni - sec customers bottom */
 .sec-customers-bottom {
-  /* height: 600px; */
   padding-top: 30px;
   padding-right: 30px;
   padding-bottom: 40px;
 }
 
+/* set dimensioni banner della sec customers */
 .customers-banner {
   width: 400px;
   height: 320px;
 }
 
+/* set button del banner della sec customers */
 .sec-customers-bottom .btn {
   display: inline-block;
   margin-top: 20px;
 }
 
+/* set testi del banner - sec customers bottom */
 .customers-banner h2 {
   margin-bottom: 25px;
 }
@@ -709,11 +766,14 @@ h6 {
   font-size: 12px;
   font-weight: 500;
 }
+/* set testi del banner - sec customers bottom */
 
+/* per togliere sottolienato di default al tag a */
 .customers-banner a {
   text-decoration: none;
 }
 
+/* set immagine di background - sec feature bottom */
 .sec-customers-bottom {
   background-image: url('../img/woman.webp');
   background-repeat: no-repeat;
@@ -722,12 +782,14 @@ h6 {
   background-position: content;
 }
 
-/* set footer */
+/* set FOOTER */
 
+/* set colore di sfondo del footer  */
 footer {
   background-color: #32495b;
 }
 
+/* set testi e posizione - sec footer */
 .footer-top {
   padding-top: 40px;
   font-size: 14px;
@@ -740,14 +802,12 @@ footer {
   font-weight: 700;
   padding-bottom: 15px;
 }
+/* set testi e posizione - sec footer */
 
+/* set dimensioni e affiancamento delle colonne-list dei links - sec footer */
 .set-col {
   float: left;
   width: 25%;
-}
-
-.no-dec {
-  text-decoration: none;
 }
 
 /* colore di default del link del footer */
@@ -775,26 +835,26 @@ footer {
   background-color: #dadee0;
 }
 
-/* colore di hover per il ink del footer */
+/* set colore di hover per i tag a del footer */
 .link-list a:hover {
   color: #7fd1de;
 }
 
-/* colore di hover per il ink del footer */
 .list-lang a:hover {
   color: #7fd1de;
 }
 
-/* colore di hover per il ink del footer */
 .list-social i:hover {
   color: #7fd1de;
 }
 
-/* colore di hover per il ink del footer */
 .list-policy a:hover  {
   color: #7fd1de;
 }
+/* /set colore di hover per i tag a del footer */
 
+
+/* set button del footer */
 .btn-col {
   color: #32495b;
 }
@@ -803,15 +863,18 @@ footer {
   margin-top: 50px;
 }
 
+/* posizionamento del button del footer */
 #btn-footer {
   display: inline-block;
   margin-top: 20px;
 }
 
+/* colore di hover per il button del footer */
 #btn-footer a:hover {
   background-color: #eaf0f6;
 }
 
+/* set e posizionamento list menu icone social */
 .list-social {
   margin-top: 30px;
 }
@@ -824,7 +887,10 @@ footer {
 .list-social li:nth-child(1n+2) {
   padding-left: 16px;
 }
+/* /set e posizionamento list icone social */
 
+
+/* set e posizionamento list menu lingue */
 .list-lang li {
   display: inline-block;
   padding: 12px;
@@ -833,18 +899,22 @@ footer {
 .list-lang {
   text-align: center;
 }
+/* set e posizionamento list menu lingue */
 
+/* set testo h5 - sec footer */
 .footer-bottom h5 {
   font-size: 15px;
   font-weight: 400;
   margin-top: 10px;
 }
 
+/* set e posizionamento list policy */
 .list-policy li {
   display: inline-block;
   padding-left: 12px;
 }
 
+/* set e posizionamento colonne - sec footer bottom */
 .footer-bottom .col-left {
   float: left;
   width: 50%;
@@ -857,15 +927,18 @@ footer {
   text-align: right;
   /* margin: 50px 0px; */
 }
+/* /set e posizionamento colonne - sec footer bottom */
 
+
+/* set posizone sec footer */
 .footer-bottom {
-  /* border-top: 1px solid #cbd6e2; */
-  margin-top: 10px;
+  margin-top: 70px;
   padding-bottom: 50px;
 }
 
+/* linea separatore del footer, divide lista delle lingu dalla zona dei copyright e policy  */
 .footer-hr {
-  width: 100%
+  width: 100%;
   height: 1px;
   border-bottom: 1px solid #cbd6e2;
   margin-bottom: 40px;
