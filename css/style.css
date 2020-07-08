@@ -10,52 +10,74 @@
   clear: both;
 }
 
-/* TEST menù a tendina per le lingue */
+/* menù a tendina per le lingue */
 
+/* set wrapper del list del menu */
 .menu-lang {
   width: 90px;
   height 300px;
-  border-radius: 2px;
+  border-radius: 3px;
   background-color: white;
   position: absolute;
   top: 55px;
   left: 240px;
   z-index: 3;
   border: 1px solid #899397;
-  box-shadow: 3px 3px 20px lightgrey;
+  box-shadow: 3px 3px 5px lightgrey;
   padding-top: 10px;
   padding-bottom: 10px;
   display: none;
 }
+/* set wrapper del list del menu */
 
+/* per distanziare le voci di menu */
 .menu-lang ul {
   line-height: 30px;
 }
 
+/* set li della list menu */
 .menu-lang li {
   padding-left: 10px;
   width: 100%;
 }
 
+/* per far colorare all'hover tutta la larghezza del contenitore del menu */
 .menu-lang li a {
   display: inline-block;
   width: 100%;
 }
 
+/* colroe per i testi delle voci di menu */
 .col-menu-lang {
   color: #394956;
 }
 
+/* per far apparire il menu a discesa */
 .ul-contact li:hover .menu-lang {
   display: block;
 }
 
+/* all'hover cambia bg color delle voci di menu */
 .menu-lang li:hover {
   background-color: #e5f5f8;
 }
 
+/* set punta grafica del wrapper delle voci di menu */
+.punta-tendina {
+  border-radius: 1px;
+  width: 15px;
+  height: 15px;
+  background-color: darkgrey;
+  position: absolute;
+  top: -8px;
+  right: 10px;
+  transform: rotate(45deg);
+  border-top: 1px solid #899397;
+  border-left: 1px solid #899397;
+  background-color: white;
+}
 
-/* /TEST menù a tendiana per le lingue */
+/* menù a tendiana per le lingue */
 
 
 
