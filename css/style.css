@@ -10,20 +10,22 @@
   clear: both;
 }
 
-/* TEST menù a tendiana per le lingue */
+/* TEST menù a tendina per le lingue */
 
 .menu-lang {
   width: 90px;
   height 300px;
+  border-radius: 2px;
   background-color: white;
   position: absolute;
   top: 55px;
   left: 240px;
   z-index: 3;
   border: 1px solid #899397;
-  box-shadow: 2px 2px 2px lightgrey;
+  box-shadow: 3px 3px 20px lightgrey;
   padding-top: 10px;
   padding-bottom: 10px;
+  display: none;
 }
 
 .menu-lang ul {
@@ -32,21 +34,31 @@
 
 .menu-lang li {
   padding-left: 10px;
+  width: 100%;
+}
+
+.menu-lang li a {
+  display: inline-block;
+  width: 100%;
 }
 
 .col-menu-lang {
   color: #394956;
 }
 
-#english:hover .menu-lang {
-  display: none;
+.ul-contact li:hover .menu-lang {
+  display: block;
 }
 
 .menu-lang li:hover {
   background-color: #e5f5f8;
 }
 
+
 /* /TEST menù a tendiana per le lingue */
+
+
+
 
 /* impsotazione h1 - titolo principale */
 h1 {
@@ -271,7 +283,7 @@ body {
 }
 
 /* posizionamento di contact us nella nav sx linea 1 */
-.header-top-line1-sx li:last-child {
+#contact-us {
   width: 82px;
   text-align: right;
 }
