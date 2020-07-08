@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -10,6 +9,44 @@
   display: table;
   clear: both;
 }
+
+/* TEST menù a tendiana per le lingue */
+
+.menu-lang {
+  width: 90px;
+  height 300px;
+  background-color: white;
+  position: absolute;
+  top: 55px;
+  left: 240px;
+  z-index: 3;
+  border: 1px solid #899397;
+  box-shadow: 2px 2px 2px lightgrey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menu-lang ul {
+  line-height: 30px;
+}
+
+.menu-lang li {
+  padding-left: 10px;
+}
+
+.col-menu-lang {
+  color: #394956;
+}
+
+#english:hover .menu-lang {
+  display: none;
+}
+
+.menu-lang li:hover {
+  background-color: #e5f5f8;
+}
+
+/* /TEST menù a tendiana per le lingue */
 
 /* impsotazione h1 - titolo principale */
 h1 {
