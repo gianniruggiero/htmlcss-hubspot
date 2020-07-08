@@ -170,7 +170,7 @@ body {
 }
 
 /* wrapper riga 1 header top */
-.extra-color-line1 {
+.back-color-line1 {
   background-color: #f4f9fd;
   height: 70px;
   /* linea che separa line 1 e line 2 del Header Top */
@@ -182,7 +182,7 @@ body {
 }
 
 /* wrapper riga 2 header top */
-.extra-color-line2 {
+.back-color-line2 {
   background-color: #ffffff;
   height: 70px;
   width: 100%;
@@ -320,8 +320,8 @@ body {
   float:left;
 }
 
-/* set immagine di sfondo dell'header*/
-.extra-color-hd-bottom {
+/* set immagine di sfondo e bg color dell'header*/
+.back-color-hd-bottom {
   background-color: #fff4ed;
   background-image: url(../img/jumbotron.png);
   background-position: top right;
